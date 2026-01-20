@@ -6,7 +6,7 @@ This is a machine learning project for classifying news headlines into predefine
 
 ## Project Overview
 
-The goal of this project is to build a text classification pipeline that automatically assigns a category to a given news headline. The project was completed as part of the CIS 5190 course and demonstrates an end-to-end NLP workflow, including data preprocessing, feature extraction, model training, and evaluation.
+The goal of this project is to build a text classification pipeline that automatically assigns a category (news source) to a given news headline. The project was completed as part of the CIS 5190 course and demonstrates an end-to-end NLP workflow, including data preprocessing, feature extraction, model training, and evaluation.
 
 ---
 
