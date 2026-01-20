@@ -21,7 +21,14 @@ The goal of this project is to build a text classification pipeline that automat
 
 ## Key Findings
 
-- TF-IDF feature representations consistently outperformed simple Bag-of-Words features by better capturing the importance of informative words in headlines
-- Linear models such as Logistic Regression and Support Vector Machines achieved higher and more stable performance than Naive Bayes across categories
-- Model performance varied by category, with confusion occurring more frequently between semantically similar news topics
-- Feature engineering and data preprocessing had a significant impact on final model performance, highlighting the importance of careful text normalization
+- **Final Model: BERT**  
+  RoBERTa showed signs of overfitting despite high training accuracy. BERT was chosen for its more stable test performance and stronger generalization.
+
+- **SVM vs BERT Trade-off**  
+  With extensive feature engineering, SVM achieved accuracy comparable to BERT, but its performance was highly sensitive to vectorization and feature choices.
+
+- **Robustness of Contextual Embeddings**  
+  BERT’s contextual embeddings capture semantic differences across varying text inputs, making it more robust for headline classification tasks with high linguistic variability.
+
+- **Interpretability vs Stability**  
+  SVM provides greater interpretability through explicit features, while BERT reduces manual preprocessing and offers more consistent performance.
